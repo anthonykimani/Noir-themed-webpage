@@ -28,3 +28,69 @@
     width:95vw;
     border:.01px solid black
 }
+
+/* HOME SECTION */
+
+.home-container{
+    width:95vw;
+    display:flex;
+}
+
+.home-bottom-image-container{
+    display:flex;
+    align-items:flex-end;
+    height:500px;
+}
+.home-bottom-image-container > img{
+    width:180px;
+    height:280px;
+}
+.home-text-container{
+    display:grid;
+    align-content: space-around;
+}
+
+.home-text-container h1{
+    font-size:52px;
+    position:relative;
+    left:-100px;
+}
+
+.home-text-container h3{
+    width:400px;
+    padding:50px;
+}
+
+.home-text-container a{
+    padding:15px 30px;
+    background-color:rgb(1, 1, 28);
+    width:100px;
+    margin-left:50px;
+    color:white;
+    font-weight:800;
+    text-decoration:none;
+}
+
+
+.home-image-container img{
+    width:400px;
+    height:500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
