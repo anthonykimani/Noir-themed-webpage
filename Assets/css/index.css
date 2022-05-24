@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Actor',sans-serif;
+}
+
+.navigation-menu {
+    display:flex;
+    justify-content:flex-start;
+}
+
+.navigation-menu  > ul{
+    display:flex;
+    padding:20px;
+}
+
+.navigation-menu > ul > li{
+    list-style:none;
+    padding:0px 30px;
+}
+
+.navigation-menu > ul > li > a{
+    color:black;
+    text-decoration:none;
+}
+
+#nav-hr{
+    width:95vw;
+    border:.01px solid black
+}
